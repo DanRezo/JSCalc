@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <!-- Test Dependencies -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+    <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        mocha.ui('bdd');
+        mocha.reporter('html');
+        var expect = chai.expect;
+    </script>
+    <!-- <script src="./public/calc2.js"></script> -->
+    <script src="spec/test.js"></script>
+    <script src="./public/calc.js"></script>
+    <script src="./public/run.js"></script>
+    <script>
+
+
+        window.addEventListener('load', function() {
+            mocha.run();
+        });
+    </script>
+
+    <!-- Production Dependencies -->
+
+
+    <!-- Your Calculator JS -->
+
+</head>
+
+<body>
+  <table>
+    
+  </table>
+
+    <!-- *********** Your Solution Here *********** -->
+		<!-- <div id="calculator">
+		<div id="total"></div>
+		<div id="operators">
+		    <a>+</a>
+		    <a>-</a>
+		    <a>/</a>
+		    <a>*</a>
+		    <a>=</a>
+		</div>
+		<div id="numbers">
+		    <a>1</a>
+		    <a>2</a>
+		    <a>3</a>
+		    <a>4</a>
+		    <a>5</a>
+		    <a>6</a>
+		    <a>7</a>
+		    <a>8</a>
+		    <a>9</a>
+		    <a id="clear">C</a>
+		    <a>0</a>
+		    <a id="clearall">AC</a>
+		</div>
+		</div> -->
+    <!-- ****************************************** -->
+
+    <div id="mocha"></div>
+</body>
+
+</html>

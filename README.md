@@ -30,3 +30,6 @@ As usual this is going to be a pass fail assignment. If your program meets all t
 [ ]: Handles decimals  
 
 [ ]: Users can enter values/perform math with keyboard input (keypress)  
+
+## Reflection 
+This project was my first attempt at JavaScript and it's jQuery library and was also my most difficult project to complete. 
